@@ -1,0 +1,923 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Just For Youth - Association</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    ">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img src="images/Design sans titre.png" alt="Just4Youth Logo" class="main-logo">
+        <ul class="nav-links">
+          <li><a href="#title-accueil" class="active">Accueil</a></li>
+          <li><a href="#title-qui-sommes-nous">Qui sommes-nous</a></li>
+          <li><a href="#title-activites">Nos Activités</a></li>
+          <li><a href="#title-temoignages">Témoignages</a></li>
+          <li><a href="#title-contact">Contact</a></li>
+        </ul>
+        <button class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>« Le meilleur d'entre vous est celui qui est le plus utile aux autres»</h1>
+        <p>S'épanouir ensemble dans la bienfaisance</p>
+      </div>
+    </section>
+    <!-- SECTION : QUI SOMMES-NOUS -->
+    <section id="qui-sommes-nous" class="QSN py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h1 id="title-qui-sommes-nous" class="main-title fw-bold">
+            Qui sommes-<span class="highlight">nous</span> ?
+          </h1>
+          <p class="text-muted lead">
+            Découvrez l'essence et l'engagement de l'association Just For Youth.
+          </p>
+        </div>
+
+        <div class="qsn-section">
+          <!-- Système Radio -->
+          <input
+            type="radio"
+            name="qsn-group"
+            id="t0"
+            class="toggle-input"
+            checked
+          />
+          <input type="radio" name="qsn-group" id="t1" class="toggle-input" />
+          <input type="radio" name="qsn-group" id="t2" class="toggle-input" />
+          <input type="radio" name="qsn-group" id="t3" class="toggle-input" />
+
+          <label for="t0" class="close-overlay"></label>
+
+          <div class="circles-row">
+            <label for="t1" class="circle-tab"
+              ><i class="bi bi-gem"></i><span>NOS VALEURS</span></label
+            >
+            <label for="t2" class="circle-tab"
+              ><i class="bi bi-rocket-takeoff"></i
+              ><span>NOTRE MISSION</span></label
+            >
+            <label for="t3" class="circle-tab"
+              ><i class="bi bi-compass"></i><span> NOTRE VISION</span></label
+            >
+          </div>
+
+          <div class="content-display">
+            <!-- VALEURS -->
+            <div class="text-panel" id="content-1">
+              <h4 class="fw-bold">Nos Valeurs</h4>
+              <p>
+                Nous encourageons des échanges basés sur l'écoute et le respect,
+                afin de transmettre et renforcer l'identité arabo-musulmane.
+                <br /><br />
+                En offrant un cadre d'échange, nous aidons les jeunes à
+                s'approprier et à valoriser leurs racines culturelles et
+                religieuses, tout en leur permettant de s'exprimer et de
+                contribuer à la société avec confiance et fierté.
+              </p>
+            </div>
+
+            <!-- MISSION -->
+            <div class="text-panel" id="content-2">
+              <h4 class="fw-bold">Notre Mission</h4>
+              <p>
+                Nous sommes une association marocaine œuvrant pour le
+                développement personnel de nos jeunes. Nous cherchons à
+                renforcer leur identité à la fois culturelle et religieuse.<br /><br />
+                Pour cela, nous les invitons à une véritable construction
+                identitaire à travers des formations, des conférences, des
+                tables rondes, des débats, des campagnes de sensibilisation et
+                des activités de loisirs.
+              </p>
+            </div>
+
+            <!-- VISION -->
+            <div class="text-panel" id="content-3">
+              <h4 class="fw-bold">Notre Vision</h4>
+              <p>
+                Nous aspirons à une jeunesse pleinement épanouie dans son
+                identité, grâce à notre engagement novateur et bienveillant.<br /><br />
+                Nous sommes le pilier sur lequel les jeunes d'aujourd'hui
+                s'appuient pour développer et promouvoir les valeurs
+                fondamentales de notre identité culturelle et religieuse.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="stats-minimal container mt-5">
+        <div class="row text-center justify-content-around">
+          <div class="col-6 col-md-4">
+            <div class="stat-item">
+              <span class="stat-number"
+                >11<span class="plus-sign">+</span></span
+              >
+              <p class="stat-text">
+                Années <br />
+                d'Ancienneté
+              </p>
+              <div class="underline"></div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4">
+            <div class="stat-item active-stat">
+              <span class="stat-number"
+                >1000<span class="plus-sign">+</span></span
+              >
+              <p class="stat-text">
+                Élèves <br />
+                Accompagnés
+              </p>
+              <div class="underline"></div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4">
+            <div class="stat-item">
+              <span class="stat-number">15</span>
+              <p class="stat-text">
+                Encadrants <br />
+                Dévoués
+              </p>
+              <div class="underline"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="founding-members">
+      <h2 class="section-title">Nos Membres Fondateurs</h2>
+      <div class="members-grid">
+        <div class="member-card slide-up">
+          <h3>Mme ANANE Assia</h3>
+          <p>Co Manager de l’entreprise AMAL PARTNERS</p>
+        </div>
+        <div class="member-card slide-up">
+          <h3>Mme AYAD Hanane</h3>
+          <p>Ingénieur en Gestion et Informatique</p>
+        </div>
+        <div class="member-card slide-up">
+          <h3>Mme BELGHITI Imane</h3>
+          <p>
+            Consultante Formatrice, double compétence managériale et
+            paramédicale, Développement Internationale
+          </p>
+        </div>
+        <div class="member-card slide-up">
+          <h3>Mme BENHAMIDA Sophia</h3>
+          <p>BTS en Commerce Internationale</p>
+        </div>
+        <div class="member-card slide-up">
+          <h3>Mme BENJELLOUN Asmâa</h3>
+          <p>Master en Audit Interne et Contrôle de Gestion</p>
+        </div>
+        <div class="member-card slide-up">
+          <h3>Mme BENYOUSSEF Ikram</h3>
+          <p>Project Manager d’une agence de voyage</p>
+        </div>
+        <div class="member-card slide-up">
+          <h3>Mme BOUSFIHA Loubna</h3>
+          <p>Consultant Expert en Management Industriel</p>
+        </div>
+        <div class="member-card slide-up">
+          <h3>Mme ELKHATEB Sahar</h3>
+          <p>Traductrice, Gérante d’un cabinet de langue étrangère</p>
+        </div>
+        <div class="member-card slide-up">
+          <h3>Melle MEGZAR Fatime Zahra</h3>
+          <p>Etudiante en Médecine</p>
+        </div>
+      </div>
+    </section>
+    <!-- CAROUSEL HERO -->
+    <section class="hero-carousel-container">
+      <div
+        id="mainHero"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+        data-bs-interval="2000"
+        data-bs-pause="false"
+      >
+        <!-- Indicateurs -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#mainHero"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#mainHero"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#mainHero"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <!-- SLIDE 1-->
+          <div class="carousel-item active">
+            <div class="hero-overlay"></div>
+            <img
+              src="images/j4y-kid.jpg.webp"
+              class="hero-img"
+              alt="Éducation Just For Youth"
+            />
+            <div class="hero-caption">
+              <h1 class="display-4 fw-bold shadow-text">
+                <span class="highlight">L'Homme</span> a ce choix : laisser
+                entrer la lumière ou garder les volets fermés.
+              </h1>
+              <p class="hero-author">
+                — <span class="fw-semibold">Henry MILLER</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- SLIDE 2 -->
+          <div class="carousel-item">
+            <div class="hero-overlay"></div>
+            <img
+              src="images/omraj4y.jpeg.bv.webp"
+              class="hero-img"
+              alt="Valeurs et Identité"
+            />
+            <div class="hero-caption">
+              <h1 class="display-4 fw-bold">
+                Une Identité <span class="highlight">Forte</span>
+              </h1>
+              <p class="lead">
+                Transmettre nos racines avec bienveillance et modernité.
+              </p>
+            </div>
+          </div>
+
+          <!-- SLIDE 3 T -->
+          <div class="carousel-item">
+            <div class="hero-overlay"></div>
+            <img
+              src="images/interatcion-j4y.jpg.webp"
+              class="hero-img"
+              alt="Engagement Associatif"
+            />
+            <div class="hero-caption">
+              <h1 class="display-4 fw-bold">
+                Just For <span class="highlight">Youth</span>
+              </h1>
+              <p class="lead">
+                Le pilier sur lequel les jeunes d'aujourd'hui s'appuient.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Flèches de navigation -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#mainHero"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#mainHero"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </section>
+    <!-- Nos Activités -->
+    <section id="nos-activites" class="activite">
+      <div class="container">
+        <!-- Header -->
+        <div class="page-header">
+          <h1 id="title-activites">
+            <i class="fas fa-hands-praying"></i> Nos activités
+          </h1>
+        </div>
+
+        <!-- Hidden radio buttons -->
+        <input
+          type="radio"
+          name="activity"
+          id="reset"
+          class="activity-radio"
+          checked
+        />
+        <input
+          type="radio"
+          name="activity"
+          id="act-assises"
+          class="activity-radio"
+        />
+        <input
+          type="radio"
+          name="activity"
+          id="act-ramadan"
+          class="activity-radio"
+        />
+        <input
+          type="radio"
+          name="activity"
+          id="act-sociales"
+          class="activity-radio"
+        />
+        <input
+          type="radio"
+          name="activity"
+          id="act-excursions"
+          class="activity-radio"
+        />
+        <input
+          type="radio"
+          name="activity"
+          id="act-omra"
+          class="activity-radio"
+        />
+        <input
+          type="radio"
+          name="activity"
+          id="act-conferences"
+          class="activity-radio"
+        />
+        <input
+          type="radio"
+          name="activity"
+          id="act-ateliers"
+          class="activity-radio"
+        />
+
+        <!-- INITIAL GRID (all circles) – visible when #reset is checked -->
+        <div class="initial-grid">
+          <label for="act-assises" class="initial-circle">
+            <i class="fas fa-calendar-check"></i>
+            <span>Assises du Samedi</span>
+          </label>
+          <label for="act-ramadan" class="initial-circle">
+            <i class="fas fa-moon"></i>
+            <span>Programme Ramadan</span>
+          </label>
+          <label for="act-sociales" class="initial-circle">
+            <i class="fas fa-hands-helping"></i>
+            <span>Actions Sociales</span>
+          </label>
+          <label for="act-excursions" class="initial-circle">
+            <i class="fas fa-map-marked-alt"></i>
+            <span>Excursions Culturelles</span>
+          </label>
+          <label for="act-omra" class="initial-circle">
+            <i class="fas fa-kaaba"></i>
+            <span>Voyage Omra</span>
+          </label>
+          <label for="act-conferences" class="initial-circle">
+            <i class="fas fa-microphone-alt"></i>
+            <span>Conférences & Débats</span>
+          </label>
+          <label for="act-ateliers" class="initial-circle">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <span>Ateliers Scolaires</span>
+          </label>
+        </div>
+
+        <!-- Assises -->
+        <div class="selected-view selected-view-assises">
+          <div class="selected-row">
+            <label for="reset" class="selected-circle">
+              <i class="fas fa-calendar-check"></i>
+              <span>Assises du Samedi</span>
+            </label>
+            <div class="selected-description">
+              <p>
+                <strong
+                  ><i class="fas fa-calendar-alt"></i> Assises Samedi
+                  matin</strong
+                >
+              </p>
+              <p>
+                Chaque samedi, nous offrons aux collégiens et lycéens un moment
+                privilégié de ressourcement identitaire à travers des assises
+                dédiées. Ces rencontres permettent aux jeunes de se reconnecter
+                avec la culture marocaine, et de discuter de valeurs
+                essentielles dans un cadre bienveillant, propice à l'écoute et à
+                l'épanouissement personnel.
+              </p>
+              <p>
+                Ces rencontres sont l'occasion d'échanger des idées, de partager
+                des expériences et de renforcer les liens identitaires dans un
+                cadre stimulant et convivial.
+              </p>
+            </div>
+          </div>
+          <div class="other-circles">
+            <label for="act-ramadan" class="other-circle">
+              <i class="fas fa-moon"></i>
+              <span>Programme Ramadan</span>
+            </label>
+            <label for="act-sociales" class="other-circle">
+              <i class="fas fa-hands-helping"></i>
+              <span>Actions Sociales</span>
+            </label>
+            <label for="act-excursions" class="other-circle">
+              <i class="fas fa-map-marked-alt"></i>
+              <span>Excursions Culturelles</span>
+            </label>
+            <label for="act-omra" class="other-circle">
+              <i class="fas fa-kaaba"></i>
+              <span>Voyage Omra</span>
+            </label>
+            <label for="act-conferences" class="other-circle">
+              <i class="fas fa-microphone-alt"></i>
+              <span>Conférences & Débats</span>
+            </label>
+            <label for="act-ateliers" class="other-circle">
+              <i class="fas fa-chalkboard-teacher"></i>
+              <span>Ateliers Scolaires</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Ramadan -->
+        <div class="selected-view selected-view-ramadan">
+          <div class="selected-row">
+            <label for="reset" class="selected-circle">
+              <i class="fas fa-moon"></i>
+              <span>Programme Ramadan</span>
+            </label>
+            <div class="selected-description">
+              <p>
+                <strong><i class="fas fa-moon"></i> Programme Ramadan</strong>
+              </p>
+              <p>
+                Pendant le mois sacré de Ramadan, nous organisons une multitude
+                d'activités enrichissantes pour renforcer les liens
+                communautaires. Nous nous réunissons pour un ftour collectif, où
+                les participants partagent un repas convivial après le jeûne.
+              </p>
+            </div>
+          </div>
+          <div class="other-circles">
+            <label for="act-assises" class="other-circle">
+              <i class="fas fa-calendar-check"></i>
+              <span>Assises du Samedi</span>
+            </label>
+            <label for="act-sociales" class="other-circle">
+              <i class="fas fa-hands-helping"></i>
+              <span>Actions Sociales</span>
+            </label>
+            <label for="act-excursions" class="other-circle">
+              <i class="fas fa-map-marked-alt"></i>
+              <span>Excursions Culturelles</span>
+            </label>
+            <label for="act-omra" class="other-circle">
+              <i class="fas fa-kaaba"></i>
+              <span>Voyage Omra</span>
+            </label>
+            <label for="act-conferences" class="other-circle">
+              <i class="fas fa-microphone-alt"></i>
+              <span>Conférences & Débats</span>
+            </label>
+            <label for="act-ateliers" class="other-circle">
+              <i class="fas fa-chalkboard-teacher"></i>
+              <span>Ateliers Scolaires</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Sociales -->
+        <div class="selected-view selected-view-sociales">
+          <div class="selected-row">
+            <label for="reset" class="selected-circle">
+              <i class="fas fa-hands-helping"></i>
+              <span>Actions Sociales</span>
+            </label>
+            <div class="selected-description">
+              <p>
+                <strong><i class="fas fa-heart"></i> Actions Sociales</strong>
+              </p>
+              <p>
+                Nous menons également des actions sociales, notamment pendant le
+                mois du Ramadan à travers la distribution d'Iftar boxes, ainsi
+                que d'autres initiatives visant à promouvoir la solidarité et
+                l'entraide au sein de notre communauté. Ces moments précieux
+                créent un esprit de fraternité et d'engagement collectif,
+                rendant ces moments inoubliables.
+              </p>
+            </div>
+          </div>
+          <div class="other-circles">
+            <label for="act-assises" class="other-circle">
+              <i class="fas fa-calendar-check"></i>
+              <span>Assises du Samedi</span>
+            </label>
+            <label for="act-ramadan" class="other-circle">
+              <i class="fas fa-moon"></i>
+              <span>Programme Ramadan</span>
+            </label>
+            <label for="act-excursions" class="other-circle">
+              <i class="fas fa-map-marked-alt"></i>
+              <span>Excursions Culturelles</span>
+            </label>
+            <label for="act-omra" class="other-circle">
+              <i class="fas fa-kaaba"></i>
+              <span>Voyage Omra</span>
+            </label>
+            <label for="act-conferences" class="other-circle">
+              <i class="fas fa-microphone-alt"></i>
+              <span>Conférences & Débats</span>
+            </label>
+            <label for="act-ateliers" class="other-circle">
+              <i class="fas fa-chalkboard-teacher"></i>
+              <span>Ateliers Scolaires</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Excursions -->
+        <div class="selected-view selected-view-excursions">
+          <div class="selected-row">
+            <label for="reset" class="selected-circle">
+              <i class="fas fa-map-marked-alt"></i>
+              <span>Excursions Culturelles</span>
+            </label>
+            <div class="selected-description">
+              <p>
+                <strong
+                  ><i class="fas fa-bus"></i> Excursions Culturelles</strong
+                >
+              </p>
+              <p>
+                Les excursions offrent une expérience éducative, immersive et
+                agréable pour les jeunes de l'association. En voici quelques
+                unes :
+              </p>
+              <ul>
+                <li>
+                  <strong>Visites de mosquées et musées historiques :</strong>
+                  Découvrir le patrimoine national à travers les monuments et
+                  les musées.
+                </li>
+                <li>
+                  <strong
+                    >Excursions éducatives dans des bibliothèques :</strong
+                  >
+                  Explorer les trésors historiques pour une meilleure
+                  compréhension du patrimoine islamique.
+                </li>
+                <li>
+                  <strong>Voyages culturels à travers le Maroc :</strong>
+                  Découvrir des sites historiques comme Fès, Marrakech, Rabat,
+                  Meknès.
+                </li>
+                <li>
+                  <strong>Randonnées et retraites en pleine nature :</strong>
+                  Combiner des activités de plein air avec des sessions de
+                  réflexion.
+                </li>
+                <li>
+                  <strong
+                    >Journées découvertes sur l'artisanat marocain :</strong
+                  >
+                  Encourager la préservation de l'artisanat traditionnel.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="other-circles">
+            <label for="act-assises" class="other-circle">
+              <i class="fas fa-calendar-check"></i>
+              <span>Assises du Samedi</span>
+            </label>
+            <label for="act-ramadan" class="other-circle">
+              <i class="fas fa-moon"></i>
+              <span>Programme Ramadan</span>
+            </label>
+            <label for="act-sociales" class="other-circle">
+              <i class="fas fa-hands-helping"></i>
+              <span>Actions Sociales</span>
+            </label>
+            <label for="act-omra" class="other-circle">
+              <i class="fas fa-kaaba"></i>
+              <span>Voyage Omra</span>
+            </label>
+            <label for="act-conferences" class="other-circle">
+              <i class="fas fa-microphone-alt"></i>
+              <span>Conférences & Débats</span>
+            </label>
+            <label for="act-ateliers" class="other-circle">
+              <i class="fas fa-chalkboard-teacher"></i>
+              <span>Ateliers Scolaires</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Omra -->
+        <div class="selected-view selected-view-omra">
+          <div class="selected-row">
+            <label for="reset" class="selected-circle">
+              <i class="fas fa-kaaba"></i>
+              <span>Voyage Omra</span>
+            </label>
+            <div class="selected-description">
+              <p>
+                <strong
+                  ><i class="fas fa-mosque"></i> Voyage vers les lieux saints :
+                  Omra</strong
+                >
+              </p>
+              <p>
+                Nous proposons un voyage inoubliable pour nos jeunes, leur
+                offrant l'opportunité d'accomplir une Omra vers les lieux
+                saints. Ce périple est encadré par une équipe de formateurs
+                expérimentés, bienveillants et attentifs, assurant un
+                accompagnement de qualité tout au long du voyage. Ce voyage vise
+                à renforcer leur foi, à enrichir leur compréhension des valeurs
+                et de l'éthique propre à leur culture et à créer des souvenirs
+                inestimables.
+              </p>
+              <p>
+                Ces activités pourraient non seulement renforcer l'éducation et
+                la sensibilisation mais aussi encourager la fraternité, l'unité,
+                et le partage au sein de la communauté.
+              </p>
+            </div>
+          </div>
+          <div class="other-circles">
+            <label for="act-assises" class="other-circle">
+              <i class="fas fa-calendar-check"></i>
+              <span>Assises du Samedi</span>
+            </label>
+            <label for="act-ramadan" class="other-circle">
+              <i class="fas fa-moon"></i>
+              <span>Programme Ramadan</span>
+            </label>
+            <label for="act-sociales" class="other-circle">
+              <i class="fas fa-hands-helping"></i>
+              <span>Actions Sociales</span>
+            </label>
+            <label for="act-excursions" class="other-circle">
+              <i class="fas fa-map-marked-alt"></i>
+              <span>Excursions Culturelles</span>
+            </label>
+            <label for="act-conferences" class="other-circle">
+              <i class="fas fa-microphone-alt"></i>
+              <span>Conférences & Débats</span>
+            </label>
+            <label for="act-ateliers" class="other-circle">
+              <i class="fas fa-chalkboard-teacher"></i>
+              <span>Ateliers Scolaires</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Conférences -->
+        <div class="selected-view selected-view-conferences">
+          <div class="selected-row">
+            <label for="reset" class="selected-circle">
+              <i class="fas fa-microphone-alt"></i>
+              <span>Conférences & Débats</span>
+            </label>
+            <div class="selected-description">
+              <p>
+                <strong
+                  ><i class="fas fa-comments"></i> Conférences & Débats</strong
+                >
+              </p>
+              <p>
+                Éducation et réflexion : Conférences sur des thèmes culturels,
+                sociaux et contemporains. Débats pour corriger les idées fausses
+                et promouvoir le leadership des jeunes.
+              </p>
+            </div>
+          </div>
+          <div class="other-circles">
+            <label for="act-assises" class="other-circle">
+              <i class="fas fa-calendar-check"></i>
+              <span>Assises du Samedi</span>
+            </label>
+            <label for="act-ramadan" class="other-circle">
+              <i class="fas fa-moon"></i>
+              <span>Programme Ramadan</span>
+            </label>
+            <label for="act-sociales" class="other-circle">
+              <i class="fas fa-hands-helping"></i>
+              <span>Actions Sociales</span>
+            </label>
+            <label for="act-excursions" class="other-circle">
+              <i class="fas fa-map-marked-alt"></i>
+              <span>Excursions Culturelles</span>
+            </label>
+            <label for="act-omra" class="other-circle">
+              <i class="fas fa-kaaba"></i>
+              <span>Voyage Omra</span>
+            </label>
+            <label for="act-ateliers" class="other-circle">
+              <i class="fas fa-chalkboard-teacher"></i>
+              <span>Ateliers Scolaires</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Ateliers -->
+        <div class="selected-view selected-view-ateliers">
+          <div class="selected-row">
+            <label for="reset" class="selected-circle">
+              <i class="fas fa-chalkboard-teacher"></i>
+              <span>Ateliers Scolaires</span>
+            </label>
+            <div class="selected-description">
+              <p>
+                <strong
+                  ><i class="fas fa-school"></i> Ateliers Scolaires</strong
+                >
+              </p>
+              <p>
+                Dans les instituts : Ateliers de sensibilisation animés par des
+                intervenants expérimentés. Réflexion, échange et engagement
+                identitaire au sein des établissements.
+              </p>
+            </div>
+          </div>
+          <div class="other-circles">
+            <label for="act-assises" class="other-circle">
+              <i class="fas fa-calendar-check"></i>
+              <span>Assises du Samedi</span>
+            </label>
+            <label for="act-ramadan" class="other-circle">
+              <i class="fas fa-moon"></i>
+              <span>Programme Ramadan</span>
+            </label>
+            <label for="act-sociales" class="other-circle">
+              <i class="fas fa-hands-helping"></i>
+              <span>Actions Sociales</span>
+            </label>
+            <label for="act-excursions" class="other-circle">
+              <i class="fas fa-map-marked-alt"></i>
+              <span>Excursions Culturelles</span>
+            </label>
+            <label for="act-omra" class="other-circle">
+              <i class="fas fa-kaaba"></i>
+              <span>Voyage Omra</span>
+            </label>
+            <label for="act-conferences" class="other-circle">
+              <i class="fas fa-microphone-alt"></i>
+              <span>Conférences & Débats</span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION : TÉMOIGNAGES -->
+    <section id="temoignages" class="py-5 temoignage-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h1 id="title-temoignages" class="main-title fw-bold">Témoignages</h1>
+        </div>
+        <div class="row g-4">
+          <!-- Témoignage 1 -->
+          <div class="col-md-7">
+            <div class="card h-100 bento-card card-fall-green text-white">
+              <div class="d-flex align-items-center mb-3">
+                <div class="avatar-squircle bg-white text-forest">Y</div>
+                <div class="ms-3">
+                  <h6 class="mb-0 fw-bold">Maman de Yasser</h6>
+                </div>
+              </div>
+              <p class="mb-0 small opacity-90">
+                Merci infiniment a toute l'équipe "Just 4 Youth" pour votre
+                engagement, la qualité des enseignements et l'encadrement. Nos
+                enfants n'ont pas senti de rejet envers l'enseignement religieux
+                et c'est ça le vrai défi de nos jours (avec les générations
+                issues des missions étrangères). الله يجازيكم كل خير.
+                Franchement, ceux qui sous-estiment les compétences des femmes
+                n'ont rien compris 😂 BRAVO 👏👏👍
+              </p>
+            </div>
+          </div>
+
+          <!-- Témoignage 2 -->
+          <div class="col-md-5">
+            <div class="card h-100 bento-card card-clay text-white">
+              <div class="d-flex align-items-center mb-3">
+                <div class="avatar-squircle bg-soft-earth">H</div>
+                <div class="ms-3"><h6 class="mb-0 fw-bold">Mme. Houda</h6></div>
+              </div>
+              <p class="text-white italic small mb-0">
+                "En tant que maman je vous suis très reconnaissante. الله
+                يجازيكم بالخير Je n'oublierai jamais ce que vous avez fait pour
+                ma fille et l'impact que vous avez laissé en elle"
+              </p>
+            </div>
+          </div>
+
+          <!-- Témoignage 3 -->
+          <div class="col-md-5">
+            <div class="card h-100 bento-card card-nude border-earth">
+              <div class="d-flex align-items-center mb-3">
+                <div class="avatar-squircle bg-spirit-dark text-white">S</div>
+                <div class="ms-3">
+                  <h6 class="mb-0 fw-bold text-dark">Maman de Sara</h6>
+                </div>
+              </div>
+              <p class="text-secondary small mb-0">
+                "Année très intéressante et sujets divers et très variés. Nos
+                ados ont bien mûri grasse à tous vos efforts Bravo bravo
+                👏👏👏👏"
+              </p>
+            </div>
+          </div>
+
+          <!-- Témoignage 4 -->
+          <div class="col-md-7">
+            <div class="card h-100 bento-card bg-spirit-dark text-white">
+              <div class="d-flex align-items-center mb-3">
+                <div class="avatar-squircle bg-spirit-active text-dark">
+                  M.Y
+                </div>
+                <div class="ms-3">
+                  <h6 class="mb-0 fw-bold text-white">Maman de Yassir</h6>
+                </div>
+              </div>
+              <p class="opacity-75 small">
+                Llah ijazikoum bel khir grace à vous Yassir et Rim ont bien su
+                les valeurs de l'Islam lhamdoullah
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <h3 id="title-contact" class="footer-title">Just4Youth</h3>
+          <p>
+            Engager la jeunesse dans une dynamique de bienfaisance et
+            d'excellence personnelle au Maroc.
+          </p>
+        </div>
+        <div class="footer-contact">
+          <div class="contact-line">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Casablanca, Maroc</span>
+          </div>
+          <div class="contact-line">
+            <i class="fas fa-envelope"></i>
+            <span>contact@just4youth.org</span>
+          </div>
+          <div class="contact-line">
+            <i class="fas fa-phone"></i>
+            <span>+212 661-130802</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Just4Youth — Excellence et Partage.</p>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-links');
+    burger.addEventListener('click', () => {
+      nav.classList.toggle('nav-active');
+    });
+    </script>
+  </body>
+</html>
